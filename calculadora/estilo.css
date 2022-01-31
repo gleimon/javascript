@@ -1,0 +1,39 @@
+:root {
+--primary: #9e9e9e;
+--primary-dark: #707070;
+--primary-light: #cfcfcf;
+}
+
+.calculadora {
+width: 300px;
+margin: 40px auto;
+box-shadow: 0px, 2px, 4px #00000080;
+padding: 8px;
+background-color: var(--primary-light);
+
+}
+
+#display {
+    background-color: var(--primary-dark);
+    height: 30px;
+    padding: 8px;
+    font-size: 26px;
+    text-align: right;
+    
+}
+
+.teclado button {
+    background-color: var(--primary);
+    min-width: 48px;
+    padding: 8px 14px;
+    border: 1px solid var(--primary-dark);
+    margin: 4px;
+    transition-duration: 250ms;
+         
+}
+
+.teclado button:hover {
+    box-shadow: 0px 0px 4px #000000;
+    cursor: pointer;
+         
+}
